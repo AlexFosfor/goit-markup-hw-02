@@ -1,13 +1,107 @@
-body {
-  background-color: #fff;
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --footer-title-text-color: #e7e9fc;
+  --section-title-text-color: #ffffff;
 }
+body {
+  background-color: #ffffff;
+  color: #434455;
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+/* Logo */
+.logo {
+  color: var(--accent-color);
+  width: 44px;
+  height: 24px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* logo1 */
+.logo1 {
+  color: var(--title-text-color);
+  /* Studio */
+
+  width: 71px;
+  height: 24px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* auth-nav */
+.auth-nav a {
+  color: var(--primary-text-color);
+}
+/* text none */
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 /* Site-nav */
 .site-nav a {
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
-/* Body text color: #2E2F42; */
+.section-title {
+  color: var(--title-text-color);
+}
+/* site-contacts */
+.text-contacts-email {
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
 
-/* secondary color: #434455; */
+  /* Body */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-contacts-tel {
+  position: absolute;
+  width: 151px;
+  height: 24px;
+  left: 1133px;
+  top: 24px;
+
+  /* Body */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* footer-title */
+.footer-title {
+  color: var(--footer-title-text-color);
+}
+.section-title-text {
+  color: var(--section-title-text-color);
+}
