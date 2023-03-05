@@ -38,6 +38,9 @@ body {
 .header-link:hover {
   color: var(--hover-color);
 }
+.addres {
+  font-style: normal;
+}
 /* button */
 .button-title-text {
   color: var(--section-title-text-color);
