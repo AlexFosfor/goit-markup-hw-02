@@ -5,6 +5,7 @@
   --footer-title-text-color: #e7e9fc;
   --section-title-text-color: #ffffff;
   --text-logo-footer-color: #f4f4fd;
+  --hover-color: #404bbf;
 }
 body {
   background-color: #ffffff;
@@ -33,6 +34,9 @@ body {
   display: flex;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+.header-link:hover {
+  color: var(--hover-color);
 }
 /* button */
 .button-title-text {
