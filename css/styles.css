@@ -76,6 +76,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 /* site-contacts */
 .text-contacts-email {
@@ -95,9 +96,6 @@ body {
   height: 24px;
   left: 1133px;
   top: 24px;
-
-  /* Body */
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -117,6 +115,12 @@ body {
 }
 .section-title-hidden {
   visibility: hidden;
+}
+.text-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* footer */
 .footer {
