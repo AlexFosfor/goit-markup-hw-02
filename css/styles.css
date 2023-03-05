@@ -93,6 +93,9 @@ a {
   font-size: 16px;
   line-height: 24px;
 }
+.section-hero {
+  background-color: var(--title-text-color);
+}
 /* footer */
 .footer {
   background-color: var(--title-text-color);
