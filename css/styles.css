@@ -104,6 +104,15 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
 }
+.button-title-text {
+  color: var(--section-title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
 /* footer */
 .footer {
   background-color: var(--title-text-color);
