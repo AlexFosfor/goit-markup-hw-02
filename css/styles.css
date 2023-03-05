@@ -35,12 +35,16 @@ body {
   letter-spacing: 0.03em;
 }
 /* button */
-button {
-  font-family: roboto;
+.button-title-text {
+  color: var(--section-title-text-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 /* auth-nav */
 .auth-nav a {
@@ -50,7 +54,7 @@ button {
 ul {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 /* Site-nav */
@@ -103,17 +107,6 @@ a {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-}
-.button-title-text {
-  color: var(--section-title-text-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  cursor: pointer;
 }
 /* footer */
 .footer {
