@@ -8,13 +8,13 @@
 body {
   background-color: #ffffff;
   color: #434455;
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
 /* Logo web */
 .logo-web {
   color: var(--accent-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -25,7 +25,7 @@ body {
 /* logo studio */
 .logo-studio {
   color: var(--title-text-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
