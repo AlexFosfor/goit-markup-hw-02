@@ -4,6 +4,7 @@
   --accent-color: #4d5ae5;
   --footer-title-text-color: #e7e9fc;
   --section-title-text-color: #ffffff;
+  --text-logo-footer-color: #f4f4fd;
 }
 body {
   background-color: #ffffff;
@@ -92,7 +93,13 @@ a {
   font-size: 16px;
   line-height: 24px;
 }
-/* footer-title */
+/* footer */
+.footer {
+  background-color: var(--title-text-color);
+}
+.logo-studio-footer {
+  color: var(--text-logo-footer-color);
+}
 .footer-title {
   color: var(--footer-title-text-color);
 }
