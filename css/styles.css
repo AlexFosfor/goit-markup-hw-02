@@ -11,36 +11,31 @@ body {
   font-family: roboto, sans-serif;
   letter-spacing: 0.02em;
 }
-/* Logo */
-.logo {
+/* Logo web */
+.logo-web {
   color: var(--accent-color);
-  width: 44px;
-  height: 24px;
   font-family: "Raleway";
   font-size: 18px;
   line-height: 24px;
   display: flex;
   letter-spacing: 0.03em;
 }
-/* logo1 */
-.logo1 {
+/* logo studio */
+.logo-studio {
   color: var(--title-text-color);
-  /* Studio */
-
-  width: 71px;
-  height: 24px;
-
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
   font-size: 18px;
   line-height: 24px;
-  /* identical to box height, or 133% */
-
   display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+}
+/* button */
+button {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 /* auth-nav */
 .auth-nav a {
@@ -56,6 +51,9 @@ a {
 /* Site-nav */
 .site-nav a {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .section-title {
   color: var(--title-text-color);
@@ -70,7 +68,6 @@ a {
 
   /* Body */
 
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
