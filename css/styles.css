@@ -96,6 +96,13 @@ a {
 .section-hero {
   background-color: var(--title-text-color);
 }
+.section-title-text {
+  color: var(--section-title-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+}
 /* footer */
 .footer {
   background-color: var(--title-text-color);
@@ -105,7 +112,4 @@ a {
 }
 .footer-title {
   color: var(--footer-title-text-color);
-}
-.section-title-text {
-  color: var(--section-title-text-color);
 }
