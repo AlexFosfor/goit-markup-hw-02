@@ -51,7 +51,7 @@ body {
   color: var(--primary-text-color);
 }
 /* text none */
-ul {
+.list {
   list-style: none;
 }
 .link {
