@@ -17,18 +17,20 @@ body {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.17;
   display: flex;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 /* logo studio */
 .logo-studio {
   color: var(--title-text-color);
   font-family: "Raleway";
-  font-size: 18px;
   font-weight: 800;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 1.17;
   display: flex;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 /* button */
