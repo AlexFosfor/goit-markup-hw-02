@@ -126,12 +126,16 @@ body {
 }
 /* Home page section 3 */
 .section-title-p {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
+/* Home page section 4 */
+
 /* footer */
 .footer {
   background-color: var(--title-text-color);
