@@ -53,6 +53,10 @@ body {
 /* auth-nav */
 .auth-nav a {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
 /* text none */
 .list {
@@ -74,20 +78,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
-/* site-contacts */
-.text-contacts-email {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-}
-.text-contacts-tel {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-}
-.addres {
-  font-style: normal;
 }
 /* Home page section 1 */
 .section-hero {
