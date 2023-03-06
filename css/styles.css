@@ -36,7 +36,7 @@ body {
   letter-spacing: 0.03em;
 }
 .header-link:is(:hover, :focus) {
-  color: var(--hover-color);
+  color: #434455;
 }
 /* button */
 .button-title-text {
@@ -52,6 +52,7 @@ body {
 }
 /* auth-nav */
 .auth-nav a {
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -60,7 +61,7 @@ body {
   font-style: normal;
 }
 .auth-nav:is(:hover, :focus) {
-  color: var(--hover-color);
+  color: #434455;
 }
 /* text none */
 .list {
