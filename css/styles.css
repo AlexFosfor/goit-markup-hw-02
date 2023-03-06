@@ -38,8 +38,6 @@ body {
 .header-link:is(:hover, :focus) {
   color: var(--hover-color);
 }
-.addres {
-}
 /* button */
 .button-title-text {
   color: var(--section-title-text-color);
