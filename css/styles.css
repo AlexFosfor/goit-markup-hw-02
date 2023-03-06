@@ -36,7 +36,7 @@ body {
   letter-spacing: 0.03em;
 }
 .header-link:is(:hover, :focus) {
-  color: #434455;
+  color: #404bbf;
 }
 /* button */
 .button-title-text {
@@ -61,7 +61,7 @@ body {
   font-style: normal;
 }
 .auth-nav:is(:hover, :focus) {
-  color: #434455;
+  color: #404bbf;
 }
 /* text none */
 .list {
