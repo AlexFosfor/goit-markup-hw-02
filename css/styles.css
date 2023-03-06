@@ -147,7 +147,7 @@ body {
 }
 /* Portfolio */
 .button-filtr {
-  color: var(--section-title-text-color);
+  color: var(--accent-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -159,5 +159,5 @@ body {
   letter-spacing: 0.04em;
 }
 .button-filtr:hover {
-  color: var(--accent-color);
+  color: var(--section-title-text-color);
 }
