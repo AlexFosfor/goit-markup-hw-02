@@ -65,7 +65,7 @@ body {
   text-decoration: none;
 }
 /* Site-nav */
-.site-nav {
+.site-nav a {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
