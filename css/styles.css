@@ -38,6 +38,9 @@ body {
 .header-link:is(:hover, :focus) {
   color: #404bbf;
 }
+.contacts-link:is(:hover, :focus) {
+  color: #404bbf;
+}
 /* button */
 .button-title-text {
   color: var(--section-title-text-color);
