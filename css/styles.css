@@ -60,9 +60,6 @@ body {
 .address {
   font-style: normal;
 }
-.auth-nav:is(:hover, :focus) {
-  color: #404bbf;
-}
 /* text none */
 .list {
   list-style: none;
