@@ -75,6 +75,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 /* Home page section 1 */
 .section-hero {
@@ -82,15 +83,17 @@ body {
 }
 .section-title-text {
   color: var(--section-title-text-color);
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 /* button order */
 .button-order {
   color: var(--section-title-text-color);
   background-color: var(--accent-color);
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -115,6 +118,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 /* Home page section 4 */
 .section-team {
