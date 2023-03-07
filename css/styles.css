@@ -109,6 +109,7 @@ body {
   visibility: hidden;
 }
 .text-p {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
 }
@@ -120,6 +121,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 /* Home page section 4 */
 .section-team {
